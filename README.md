@@ -6,5 +6,5 @@ In making this project I used very little CSS and HTML and focused mainly on usi
 most challenging parts of this was adding the weather symbols.
 
 ## Usage
-
-## Features
+Type the name of the city you'd like to see the 5 day report for and press Search. It will load a list of cities you've searched from 
+localstorage, you can click on those and see the 5 day weather report for cities you searched before

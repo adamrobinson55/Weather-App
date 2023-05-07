@@ -54,7 +54,7 @@ function latlonConverter(city) {
     }
     city = city
     if(city == ""){return}
-    var apiUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=5&appid=19f40dc73d00c4ecaf74bc0afa4dd390'
+    var apiUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=5&appid=19f40dc73d00c4ecaf74bc0afa4dd390'
     fetch(apiUrl)
         .then(function(response){
             return response.json()})
